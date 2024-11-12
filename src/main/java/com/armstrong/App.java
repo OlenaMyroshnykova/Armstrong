@@ -1,17 +1,11 @@
 package com.armstrong;
 
-/**
- * Hello world!
- */
-public final class App {
-    private App() {
-    }
+import main.java.com.armstrong.controllers.StartController;
 
-    /**
-     * Says hello to the world.
-     * @param args The arguments of the program.
-     */
+public final class App {
+
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        StartController.checkNumber(371);
+        StartController.checkNumber(351);
     }
 }
