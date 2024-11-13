@@ -31,10 +31,8 @@ public class StartControllerTest {
     public void testCheckNumber_WithArmstrongNumber() {
         int number = 371;
         
-        // Вызываем метод контроллера
         StartController.checkNumber(number);
 
-        // Проверяем вывод на консоль
         assertEquals("El número 371 es un número de Armstrong.", outputStreamCaptor.toString().trim());
     }
 
@@ -42,10 +40,8 @@ public class StartControllerTest {
     public void testCheckNumber_WithNonArmstrongNumber() {
         int number = 351;
 
-        // Вызываем метод контроллера
         StartController.checkNumber(number);
 
-        // Проверяем вывод на консоль
         assertEquals("El número 351 no es un número de Armstrong.", outputStreamCaptor.toString().trim());
     }
 }
