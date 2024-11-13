@@ -28,8 +28,10 @@ class AppTest {
     public void testMainOutput() {
         App.main(new String[]{});
 
-        String expectedOutput = "El número 371 es un número de Armstrong.\r\n" + 
-                        "El número 351 no es un número de Armstrong.";
+        String expectedOutput = "El número 351 no es un número de Armstrong.\r\n" + 
+                        "El número 371 es un número de Armstrong.\r\n" + 
+                        "El número 1634 es un número de Armstrong.\r\n" + 
+                        "El número 2015 no es un número de Armstrong.";
 
         assertEquals(expectedOutput, outputStreamCaptor.toString().trim());
     }}
