@@ -1,4 +1,4 @@
-package main.java.com.armstrong.models;
+package com.armstrong.models;
 
 public class ArmstrongModel {
   

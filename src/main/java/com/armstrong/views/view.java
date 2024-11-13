@@ -1,6 +1,6 @@
 package com.armstrong.views;
 
-public class view {
+public class View {
     public void showResult(int number, boolean isArmstrong) {
         if (isArmstrong) {
             System.out.println("El número " + number + " es un número de Armstrong.");

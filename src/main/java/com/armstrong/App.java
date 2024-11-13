@@ -1,6 +1,6 @@
 package com.armstrong;
 
-import main.java.com.armstrong.controllers.StartController;
+import com.armstrong.controllers.StartController;
 
 public final class App {
 
